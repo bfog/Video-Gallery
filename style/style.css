@@ -59,6 +59,16 @@ img:hover {
    font-size: 5em;
 }
 
+@media only screen and (min-width: 320px)  { 
+   .carousel-text { 
+      font-size: 2em; 
+      left: 34%;
+   } 
+}
+@media only screen and (min-width: 768px)  { .carousel-text{ font-size: 3em; } }
+@media only screen and (min-width: 1024px) { .carousel-text{ font-size: 4em; } }
+@media only screen and (min-width: 1900px) { .carousel-text{ font-size: 5em; } }
+
 footer {
    color: white;
    text-align: center;
