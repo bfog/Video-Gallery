@@ -15,6 +15,12 @@ img:hover {
 .modal-content iframe {
    margin: 0 auto;
    display: block;
+   width: 100%;
+   height: 100%;
+}
+
+.modal-backdrop {
+   background-color: black;
 }
 
 .desc {
