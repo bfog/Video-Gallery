@@ -1,8 +1,11 @@
+html, body {
+   overflow-x: hidden;
+}
+
 img {
    width: 100%;
    max-height: 100%;
-   margin: 5%;
-   border-radius: 2%;
+   border-radius: 5px 5px 0 0;
 }
 
 img:hover {
@@ -12,4 +15,30 @@ img:hover {
 .modal-content iframe {
    margin: 0 auto;
    display: block;
+}
+
+.desc {
+   text-align: center;
+}
+
+.group {
+   color: #dedee8;
+}
+
+.desc {
+   background: #323235;
+}
+
+.navbar {
+   opacity: 0.9;
+}
+
+video {
+   width: auto;
+   height: 700px;
+   min-width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+   object-fit: fill;
+   margin-bottom: 3%;
 }

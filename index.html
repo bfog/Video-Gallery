@@ -19,11 +19,37 @@
       <script src="script/controller.js"></script>
       <script src="script/modal.js"></script>
    </head>
-<body ng-controller="vidCtrl" style="background: #343538">
+<body ng-controller="vidCtrl" style="background: #242426">
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+     <a class="navbar-brand" href="#">Navbar</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+         </li>
+         </ul>
+      </div>
+   </nav>
+   
+   <video autoplay muted loop>
+      <source src="data/banner.webm" type="video/webm"/>
+   </video>
+   
    <div class="container">
       <div class="row">
-         <div class="col-lg-4 col-sm-12" ng-repeat="i in images">
+         <div class="col-lg-4 col-sm-12 group" ng-repeat="i in images">
             <a href="#myModal" data-toggle="modal" ng-click="openVideo(i.src)"><img src="images/{{i.title}}.jpg"/></a>
+            <div class="desc">
+               <h3>{{i.vidTitle}}</h3>
+               <p>{{i.desc}}</p>
+            </div>
          </div>         
       </div>
    </div>
@@ -38,6 +64,11 @@
       </div>
    </div>
 
-   
+   <footer>
+      <div>
+         <h2>Etiam veroeros lorem</h2>
+         <p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis.</p>
+      </div>
+   </footer>
 </body>
 </html>

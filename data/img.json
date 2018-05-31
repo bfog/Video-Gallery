@@ -1,26 +1,38 @@
 [
    {
       "title": "pic01",
-      "src": "https://www.youtube.com/embed/s6zR2T9vn2c"
+      "src": "https://www.youtube.com/embed/s6zR2T9vn2c",
+      "vidTitle": "Nascetur nunc varius commodo",
+      "desc": "Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan."
    },
    {
       "title": "pic02",
-      "src": "https://www.youtube.com/embed/fVsONlc3OUY"
+      "src": "https://www.youtube.com/embed/fVsONlc3OUY",
+      "vidTitle": "Nascetur nunc varius commodo",
+      "desc": "Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan."
    },
    {
       "title": "pic03",
-      "src": "https://www.youtube.com/embed/Vdb9IndsSXk"
+      "src": "https://www.youtube.com/embed/Vdb9IndsSXk",
+      "vidTitle": "Nascetur nunc varius commodo",
+      "desc": "Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan."
    },  
    {
       "title": "pic04",
-      "src": "https://www.youtube.com/embed/dKl58l8Thl4"
+      "src": "https://www.youtube.com/embed/dKl58l8Thl4",
+      "vidTitle": "Nascetur nunc varius commodo",
+      "desc": "Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan."
    },   
    {
       "title": "pic05",
-      "src": "https://www.youtube.com/embed/QGAMTlI6XxY"
+      "src": "https://www.youtube.com/embed/QGAMTlI6XxY",
+      "vidTitle": "Nascetur nunc varius commodo",
+      "desc": "Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan."
    },   
    {
       "title": "pic06",
-      "src": "https://www.youtube.com/embed/IBKBarS0YtA"
+      "src": "https://www.youtube.com/embed/IBKBarS0YtA",
+      "vidTitle": "Nascetur nunc varius commodo",
+      "desc": "Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan."
    }
 ]
