@@ -62,12 +62,22 @@ img:hover {
 @media only screen and (min-width: 320px)  { 
    .carousel-text { 
       font-size: 2em; 
-      left: 34%;
+      top: 42%;
+      left: 26%;
    } 
 }
 @media only screen and (min-width: 768px)  { .carousel-text{ font-size: 3em; } }
 @media only screen and (min-width: 1024px) { .carousel-text{ font-size: 4em; } }
-@media only screen and (min-width: 1900px) { .carousel-text{ font-size: 5em; } }
+@media only screen and (min-width: 1900px) { 
+   .carousel-text { 
+      font-size: 5em; 
+   } 
+   iframe {
+      width: 1080px;
+      height: 600px; 
+      position: absolute;
+   }
+}
 
 footer {
    color: white;
