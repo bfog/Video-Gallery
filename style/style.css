@@ -23,6 +23,7 @@ img:hover {
 
 .group {
    color: #dedee8;
+   margin-bottom: 2%;
 }
 
 .desc {
@@ -33,12 +34,11 @@ img:hover {
    opacity: 0.9;
 }
 
-video {
-   width: auto;
-   height: 700px;
-   min-width: 100%;
-   min-height: 100%;
-   overflow: hidden;
-   object-fit: fill;
+#bg {
    margin-bottom: 3%;
+}
+
+.carousel-item {
+   max-height: 800px;
+   height: auto;
 }
