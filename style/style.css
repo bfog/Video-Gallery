@@ -42,3 +42,11 @@ img:hover {
    max-height: 800px;
    height: auto;
 }
+
+.carousel-text {
+   position: absolute;
+   top: 50%;
+   left: 45%;
+   z-index: 20;
+
+}
