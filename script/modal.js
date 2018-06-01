@@ -2,6 +2,6 @@ $(function(){
     $('#myModal').modal({
         show: false
     }).on('hidden.bs.modal', function(){
-        $(this).find('video')[0].pause();
+        $(this).find('firstVid')[0].pause();
     });
 });
