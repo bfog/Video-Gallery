@@ -12,7 +12,7 @@
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
       <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Lusitana|Merriweather" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Lusitana|Merriweather|Pacifico" rel="stylesheet"/>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"/>
    </head>
 <body style="background: #242426">
@@ -29,7 +29,7 @@
             <a class="nav-link" href="index.html">Home</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="images.html">Images</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
          </li>
          </ul>
       </div>
@@ -46,7 +46,7 @@
       </div>
    </div>
    
-   <div class="container"  ng-controller="imgCtrl">
+   <div class="container" id="img-page"  ng-controller="imgCtrl">
        <div class="row">
          <div class="col-lg-4 col-sm-12" ng-repeat="i in gallery | offset: currentPage*imagesPerPage | limitTo: imagesPerPage">
             <img src="images/gallery/{{i.title}}.jpg"/> 
@@ -55,10 +55,10 @@
       <div class="pagination">
          <ul>
             <li data-ng-class="prevPageDisabled()" data-ng-click="prevPage()">
-               <a href="#" class="previous round">&#8249;</a>
+               <a href="#img-page" class="previous round">&#8249;</a>
             </li>
             <li data-ng-class="nextPageDisabled()" data-ng-click="nextPage()">
-               <a href="#" class="next round">&#8250;</a>
+               <a href="#img-page" class="next round">&#8250;</a>
             </li>
          </ul>
       </div>

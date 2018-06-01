@@ -106,3 +106,7 @@ i {
 #design {
    font-size: 80%;
 }
+
+.navbar-brand {
+   font-family: Pacifico;
+}
