@@ -84,12 +84,12 @@ i {
 
 @media only screen and (max-width: 488px)  { 
    #caption { 
-      font-size: 2.5em; 
+      font-size: 1.5em; 
    } 
 }
 
 @media only screen and (max-width: 768px)  { 
    #caption { 
-      font-size: 3.5em; 
+      font-size: 2em; 
    } 
 }
