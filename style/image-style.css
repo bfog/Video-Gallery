@@ -1,3 +1,49 @@
+
+
 .navbar {
    opacity: 0.9;
+}
+
+img {
+   width: 100%;
+   max-height: 100%;
+   border-radius: 7px;
+   margin:  2%;
+   margin-bottom: 4%;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.previous, .next {
+   color: black;
+   font-size: 5em;
+}
+
+.container {
+   position: relative;
+}
+
+.container .previous {
+   position: absolute;
+   top: 39%;
+   left: -3%
+}
+
+.container .next {
+   position: absolute;
+   top: 39%;
+   right: -4%;
+}
+
+@media only screen and (max-width: 488px)  { 
+   .container .previous {
+      position: static;
+   }
+   .container .next {
+      top: 93.6%;
+      right: 2%;
+   }
 }
