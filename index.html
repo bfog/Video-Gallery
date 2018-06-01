@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
    <head>
-      <title>Video Player</title>
+      <title>Video Gallery</title>
       <meta charset="utf-8" />
-      <meta name="Description" content="Video viewer and player"/>
-      <meta name="Keywords" content="Video viewer" />
+      <meta name="Description" content="Video gallery and player"/>
+      <meta name="Keywords" content="Video gallery" />
       <meta name="Author" content="Brian Fogarty"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <!-- Styling -->
@@ -24,12 +24,12 @@
      </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-auto">
+         <ul class="navbar-nav mr-auto">
          <li class="nav-item">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="images.html">Images</a>
          </li>
          </ul>
       </div>
@@ -73,10 +73,12 @@
    <div class="container">
       <div class="row">
          <div class="col-lg-4 col-sm-12 group" ng-repeat="i in images">
-            <a href="#myModal" data-toggle="modal" ng-click="openVideo(i.src)"><img src="images/{{i.title}}.jpg"/></a>
-            <div class="desc">
-               <p class="title">{{i.vidTitle}}</p>
-               <p>{{i.desc}}</p>
+            <div class="box">
+               <a href="#myModal" data-toggle="modal" ng-click="openVideo(i.src)"><img src="images/{{i.title}}.jpg"/></a>
+               <div class="desc">
+                  <p class="title">{{i.vidTitle}}</p>
+                  <p>{{i.desc}}</p>
+               </div>
             </div>
          </div>         
       </div>
@@ -86,15 +88,15 @@
    <!-- Modal -->
    <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
-   <div class="modal fade" id="myModal">
-      <div class="modal-dialog">
-         <div class="modal-content">
-            <div class="modal-body">
-               <iframe id="firstVid" src="{{trustSrc(modalLink)}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <iframe width="1000" height="600" class="firstVid" src="{{trustSrc(modalLink)}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+               </div>
             </div>
          </div>
-      </div>
-   </div>
       </div>
    </div>
 
@@ -112,8 +114,8 @@
    
    
    <!-- Angular JS -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-sanitize.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-sanitize.min.js"></script>
    
    <!-- jQuery -->
    <script

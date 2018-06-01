@@ -19,22 +19,24 @@ img:hover {
    height: 100%;
 }
 
-.modal-backdrop {
-   background-color: black;
+.modal-body {
+   background-color: #242426;
+}
+
+.firstVid {
+   width: 1000px;
+   height: 600px;
 }
 
 .desc {
    text-align: center;
+   background: #323235;
+   padding-bottom: 1%;
 }
 
 .group {
    color: #dedee8;
    margin-bottom: 2%;
-}
-
-.desc {
-   background: #323235;
-   padding-bottom: 1%;
 }
 
 .title {
@@ -52,13 +54,17 @@ img:hover {
 }
 
 .carousel-item {
-   max-height: 800px;
-   height: auto;
+   max-height: 750px;
 }
 
 .carousel-text {
    font-family: Lusitana;
    font-size: 5em;
+}
+
+.carousel-item img {
+   width: 100%;
+   margin: auto;
 }
 
 @media only screen and (max-width: 488px)  { 
