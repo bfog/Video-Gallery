@@ -48,6 +48,9 @@ ul {
       top: 94%;
       right: 3%;
    }
+   img {
+      margin: 2% 1px;
+   }
 }
 
 footer {
