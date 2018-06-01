@@ -40,12 +40,12 @@ ul {
    right: -4%;
 }
 
-@media only screen and (max-width: 488px)  { 
+@media only screen and (max-width: 640px)  { 
    .container .previous {
       position: static;
    }
    .container .next {
-      top: 93%;
+      top: 94%;
       right: 3%;
    }
 }
