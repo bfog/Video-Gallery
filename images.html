@@ -35,6 +35,17 @@
       </div>
    </nav>
    
+   <div class="row">
+      <div class="col-lg-12 col-sm-12">
+         <div class="carousel-inner">
+            <img id="camera" src="images/gallery/camera-lens.jpg"/>
+            <div class="carousel-caption">
+               <h1 class="carousel-text" id="caption">Creative Digital</h1>
+            </div>
+         </div>
+      </div>
+   </div>
+   
    <div class="container"  ng-controller="imgCtrl">
        <div class="row">
          <div class="col-lg-4 col-sm-12" ng-repeat="i in gallery | offset: currentPage*imagesPerPage | limitTo: imagesPerPage">
