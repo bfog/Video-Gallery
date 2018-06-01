@@ -18,7 +18,7 @@ ul {
 }
 
 .previous, .next {
-   color: black;
+   color: white;
    font-size: 5em;
 }
 
@@ -46,4 +46,26 @@ ul {
       top: 93.6%;
       right: 3%;
    }
+}
+
+footer {
+   color: white;
+   text-align: center;
+}
+
+.footer {
+   background: #1d1e21;
+   height: 100%;
+   padding: 1%;
+   margin-top: 2%;
+}
+
+i {
+   font-size: 1.3em;
+   margin: 0.5%;
+   padding: 0.5%;
+}
+
+#design {
+   font-size: 80%;
 }
