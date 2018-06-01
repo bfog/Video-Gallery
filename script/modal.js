@@ -1,7 +1,6 @@
-$(function(){
-    $('#myModal').modal({
-        show: false
-    }).on('hidden.bs.modal', function(){
-        $(this).find('firstVid')[0].pause();
-    });
+$('#myModal').on('hide.bs.modal', function(e) {    
+    var $if = $(e.delegateTarget).find('iframe');
+    var src = $if.attr("src");
+    $if.attr("src", '/empty.html');
+    $if.attr("src", src);
 });
