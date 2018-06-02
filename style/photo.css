@@ -1,0 +1,99 @@
+img {
+   width: 100%;
+}
+
+.img {
+   padding-top: 2.5%;
+}
+
+.photo-head {
+   margin-top: 3%;
+}
+
+#set-grey {
+   color: #D3D3D3;
+}
+
+#photo-title {
+   font-family: Fira Sans;
+   font-size: 1.5em;
+   color: #4286f4;
+}
+
+#photo-desc {
+   font-size: 0.8em;
+}
+
+.container {
+   background: #323235;
+   margin-top: 8%;
+   margin-bottom: 8%;
+   box-shadow: 0 0 2px #424549;
+   color: white;
+   font-family: Raleway;
+   border-radius: 5px;
+}
+
+.fa-heart {
+   color: red;
+}
+
+.likes {
+   margin-top: 0.5%;
+}
+
+.centre {
+   text-align: center;
+}
+
+#comment-title {
+   display: inline-block;
+   padding-left: 0.5%;
+}
+
+.profile {
+   width: 45px;
+   height: 45px;
+   border-radius: 5px;
+   float: left;
+   margin-right: 0.75%;
+}
+
+.user {
+   margin-left: 1%;
+}
+
+.cm {
+   display: block;
+}
+
+.user-id {
+   color: #4286f4;
+}
+
+
+footer {
+   color: white;
+   text-align: center;
+}
+
+.footer {
+   background: #1d1e21;
+   height: 100%;
+   padding: 1%;
+   margin-top: 2%;
+}
+
+i {
+   font-size: 1.3em;
+   margin: 0.5%;
+   padding: 0.5%;
+}
+
+#design {
+   font-size: 80%;
+}
+
+.navbar-brand {
+   font-family: Pacifico;
+}

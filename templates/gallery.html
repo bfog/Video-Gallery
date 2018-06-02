@@ -1,6 +1,6 @@
 <!-- Image Gallery Styling -->
 <link rel="stylesheet" href="style/image-style.css"/>
-<div ng-controller="imgCtrl" style="background: #242426">
+<div ng-controller="imgCtrl">
    <!-- Navigation bar -->
    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
      <a class="navbar-brand" href="#">New York</a>
@@ -33,8 +33,8 @@
    
    <div class="container" id="img-page">
        <div class="row">
-         <div class="col-lg-4 col-sm-12" ng-repeat="i in gallery | offset: currentPage*imagesPerPage | limitTo: imagesPerPage">
-            <img src="images/gallery/{{i.title}}.jpg"/> 
+         <div class="col-lg-4 col-sm-12" ng-repeat="i in gallery | offset: currentPage*imagesPerPage | limitTo: imagesPerPage track by $index">
+            <a href="#view/{{i.file}}/{{i.title}}/{{i.desc}}/{{i.likes}}/{{i.uploaded}}"><img src="images/gallery/{{i.file}}.jpg"/></a>  
          </div>
        </div>
       <div class="pagination">

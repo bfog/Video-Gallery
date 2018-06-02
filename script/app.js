@@ -11,9 +11,21 @@ app.config(function($routeProvider, $locationProvider) {
       templateUrl: "templates/gallery.html",
       controller: "imgCtrl"
    })
+   .when("/view/:file/:title/:desc/:likes/:uploaded", {
+      templateUrl: "templates/photo.html",
+      controller: "photoCtrl"
+   })
    .otherwise({
       redirectTo: "/"
    });
+});
+
+app.controller("photoCtrl", function($scope, $routeParams) {
+   $scope.photoFile = $routeParams.file;
+   $scope.photoTitle = $routeParams.title;
+   $scope.photoDesc = $routeParams.desc;
+   $scope.photoLikes = $routeParams.likes;
+   $scope.photoUploaded = $routeParams.uploaded;
 });
 
 app.controller("vidCtrl", function($scope, $http, $sce) {
