@@ -4,15 +4,15 @@ app.config(function($routeProvider, $locationProvider) {
    $locationProvider.hashPrefix("");
    $routeProvider
    .when("/", {
-      templateUrl: "login.html",
+      templateUrl: "templates/login.html",
       controller: "loginCtrl"
    })
    .when("/home", {
-      templateUrl: "index.html",
+      templateUrl: "templates/home.html",
       controller: "vidCtrl"
    })
    .when("/gallery", {
-      templateUrl: "gallery.html",
+      templateUrl: "templates/gallery.html",
       controller: "imgCtrl"
    })
    .otherwise({
