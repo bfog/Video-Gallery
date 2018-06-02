@@ -4,10 +4,6 @@ app.config(function($routeProvider, $locationProvider) {
    $locationProvider.hashPrefix("");
    $routeProvider
    .when("/", {
-      templateUrl: "templates/login.html",
-      controller: "loginCtrl"
-   })
-   .when("/home", {
       templateUrl: "templates/home.html",
       controller: "vidCtrl"
    })
@@ -18,14 +14,6 @@ app.config(function($routeProvider, $locationProvider) {
    .otherwise({
       redirectTo: "/"
    });
-});
-
-app.controller("loginCtrl", function($scope, $location) {
-   $scope.submit = function() {
-      if($scope.username == "admin" && $scope.password == "admin") {
-         $location.path("/home");
-      }
-   }
 });
 
 app.controller("vidCtrl", function($scope, $http, $sce) {
