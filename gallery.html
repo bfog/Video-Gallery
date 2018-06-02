@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="myImg">
-   <head>
-      <title>Video Gallery</title>
-      <meta charset="utf-8" />
-      <meta name="Description" content="Video viewer and player"/>
-      <meta name="Keywords" content="Video viewer" />
-      <meta name="Author" content="Brian Fogarty"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <!-- Image Gallery Styling -->
-      <link rel="stylesheet" href="style/image-style.css"/>
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
-      <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Lusitana|Merriweather|Pacifico" rel="stylesheet"/>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"/>
-   </head>
-<body style="background: #242426">
+<!-- Image Gallery Styling -->
+<link rel="stylesheet" href="style/image-style.css"/>
+<div ng-controller="imgCtrl" style="background: #242426">
    <!-- Navigation bar -->
    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
      <a class="navbar-brand" href="#">New York</a>
@@ -26,11 +11,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav mr-auto">
          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="#/home">Home</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-         </li>
+            <a class="nav-link" href="#/gallery">Gallery</a>
+         </li>         
          </ul>
       </div>
    </nav>
@@ -46,7 +31,7 @@
       </div>
    </div>
    
-   <div class="container" id="img-page"  ng-controller="imgCtrl">
+   <div class="container" id="img-page">
        <div class="row">
          <div class="col-lg-4 col-sm-12" ng-repeat="i in gallery | offset: currentPage*imagesPerPage | limitTo: imagesPerPage">
             <img src="images/gallery/{{i.title}}.jpg"/> 
@@ -54,11 +39,11 @@
        </div>
       <div class="pagination">
          <ul>
-            <li data-ng-class="prevPageDisabled()" data-ng-click="prevPage()">
-               <a href="#img-page" class="previous round">&#8249;</a>
+            <li data-ng-class="prevPageDisabled()" ng-click="prevPage()">
+               <a href="" target="_self" class="previous round">&#8249;</a>
             </li>
-            <li data-ng-class="nextPageDisabled()" data-ng-click="nextPage()">
-               <a href="#img-page" class="next round">&#8250;</a>
+            <li data-ng-class="nextPageDisabled()" ng-click="nextPage()">
+               <a href="" target="_self" class="next round">&#8250;</a>
             </li>
          </ul>
       </div>
@@ -75,15 +60,5 @@
          <p id="design">© Designed: bfogarty</p>
       </div>
    </footer>
-   
-   <!-- Angular JS -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.js"></script>
-   <!-- Image Controller -->
-   <script src="script/img-controller.js"></script>
-   <!-- jQuery -->
-   <script
-   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-   <!-- Bootstrap -->
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
-</html>
+
+</div>

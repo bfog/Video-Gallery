@@ -13,7 +13,7 @@ app.controller("imgCtrl", function($scope, $http) {
       $scope.gallery = response.data;
    });
    
-   
+   //Pagination
    $scope.imagesPerPage = 9;
    $scope.currentPage = 0;
    
@@ -42,4 +42,6 @@ app.controller("imgCtrl", function($scope, $http) {
       $scope.currentPage = n;
    };
 });
+
+
 

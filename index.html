@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="myApp">
-   <head>
-      <title>Video Gallery</title>
-      <meta charset="utf-8" />
-      <meta name="Description" content="Video gallery and player"/>
-      <meta name="Keywords" content="Video gallery" />
-      <meta name="Author" content="Brian Fogarty"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <!-- Styling -->
-      <link rel="stylesheet" href="style/style.css"/>
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
-      <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Lusitana|Merriweather|Pacifico" rel="stylesheet"/>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"/>
-   </head>
-<body ng-controller="vidCtrl" style="background: #242426">
+<!-- Styling -->
+<link rel="stylesheet" href="style/style.css"/>
+<div ng-controller="vidCtrl" style="background: #242426">
    <!-- Navigation bar -->
    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
      <a class="navbar-brand" href="#">New York</a>
@@ -26,11 +11,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav mr-auto">
          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="#/home">Home</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-         </li>
+            <a class="nav-link" href="#/gallery">Gallery</a>
+         </li>         
          </ul>
       </div>
    </nav>
@@ -60,10 +45,10 @@
             </div>
          </div>
 
-         <a class="carousel-control-prev" href="#bg" data-slide="prev">
+         <a class="carousel-control-prev" href="#bg" target="_self" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
          </a>
-         <a class="carousel-control-next" href="#bg" data-slide="next">
+         <a class="carousel-control-next" href="#bg" target="_self" data-slide="next">
             <span class="carousel-control-next-icon"></span>
          </a>
       </div>
@@ -74,7 +59,7 @@
       <div class="row">
          <div class="col-lg-4 col-sm-12 group" ng-repeat="i in images">
             <div class="box">
-               <a href="#myModal" data-toggle="modal" ng-click="openVideo(i.src)"><img src="images/{{i.title}}.jpg"/></a>
+               <a href="#myModal" target="_self" data-toggle="modal" ng-click="openVideo(i.src)"><img src="images/{{i.title}}.jpg"/></a>
                <div class="desc">
                   <p class="title">{{i.vidTitle}}</p>
                   <p>{{i.desc}}</p>
@@ -111,22 +96,7 @@
          <p id="design">© Designed: bfogarty</p>
       </div>
    </footer>
-   
-   
-   <!-- Angular JS -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-sanitize.min.js"></script>
-   
-   <!-- jQuery -->
-   <script
-   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-   
-   <!-- Bootstrap -->
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-   
-   <!-- controller js -->
-   <script src="script/controller.js"></script>
    <!-- modal jQuery -->
    <script src="script/modal.js"></script>
-</body>
-</html>
+</div>
+
