@@ -97,3 +97,16 @@ i {
 .navbar-brand {
    font-family: Pacifico;
 }
+
+@media only screen and (max-width: 488px) {
+   .container {
+   margin-top: 12%;
+   margin-bottom: 0;
+   }
+   .footer {
+      margin: 0;
+   }
+   .img {
+      margin-top: 5%;
+   }
+}
