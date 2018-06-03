@@ -28,40 +28,18 @@ ul {
    position: relative;
 }
 
-.container .previous {
-   position: absolute;
-   top: 39%;
-   left: -3%
-}
-
-.container .next {
-   position: absolute;
-   top: 39%;
-   right: -4%;
-}
-
-@media only screen and (max-width: 480px)  { 
    .container .previous {
-      position: static;
+      position: absolute;
+      top: 39%;
+      left: -3%
    }
-   .container .next {
-      top: 94%;
-      right: 3%;
-   }
-   img {
-      margin: 2% 1px;
-   }
-}
 
-@media only screen and (min-width: 640px) {
-   .container .previous {
-      position: static;
-   }
    .container .next {
-      top: 96%;
-      right: 3%;
+      position: absolute;
+      top: 39%;
+      right: -4%;
    }
-}
+
 
 footer {
    color: white;
