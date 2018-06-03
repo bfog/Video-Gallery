@@ -23,7 +23,7 @@
    <div class="row">
       <div class="col-lg-12 col-sm-12">
          <div class="carousel-inner">
-            <img id="camera" src="images/gallery/camera-lens.jpg"/>
+            <img id="camera" src="images/gallery/camera-lens.jpg" alt="photo of camera"/>
             <div class="carousel-caption">
                <h1 class="carousel-text" id="caption">Creative Digital</h1>
             </div>
@@ -34,7 +34,7 @@
    <div class="container" id="img-page">
        <div class="row">
          <div class="col-lg-4 col-sm-12" ng-repeat="i in gallery | offset: currentPage*imagesPerPage | limitTo: imagesPerPage track by $index">
-            <a href="#view/{{i.file}}/{{i.title}}/{{i.desc}}/{{i.likes}}/{{i.uploaded}}/{{i.comments}}"><img src="images/gallery/{{i.file}}.jpg"/></a>  
+            <a href="#view/{{i.file}}/{{i.title}}/{{i.desc}}/{{i.likes}}/{{i.uploaded}}/{{i.comments}}"><img src="images/gallery/{{i.file}}.jpg" alt="a list of cinematic photos"/></a>  
          </div>
        </div>
       <div class="pagination">

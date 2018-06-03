@@ -59,7 +59,7 @@
       <div class="row">
          <div class="col-lg-4 col-sm-12 group" ng-repeat="i in images">
             <div class="box">
-               <a href="#myModal" target="_self" data-toggle="modal" ng-click="openVideo(i.src)"><img src="images/{{i.title}}.jpg"/></a>
+               <a href="#myModal" target="_self" data-toggle="modal" ng-click="openVideo(i.src)"><img src="images/{{i.title}}.jpg" alt="Video poster image"/></a>
                <div class="desc">
                   <p class="title">{{i.vidTitle}}</p>
                   <p>{{i.desc}}</p>
@@ -77,7 +77,7 @@
             <div class="modal-dialog">
                <div class="modal-content">
                   <div class="modal-body">
-                     <iframe width="1000" height="600" class="firstVid" src="{{trustSrc(modalLink)}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     <iframe class="firstVid" src="{{trustSrc(modalLink)}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                </div>
             </div>
