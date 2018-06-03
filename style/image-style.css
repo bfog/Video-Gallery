@@ -40,6 +40,28 @@ ul {
       right: -4%;
    }
 
+@media only screen and (max-width: 800px)  { 
+   .container .previous {
+      position: static;
+   }
+   .container .next {
+      top: 96%;
+      right: 3%;
+   }
+   img {
+      margin: 2% 1px;
+   }
+}
+
+@media only screen and (max-width: 640px) {
+   .container .previous {
+      position: static;
+   }
+   .container .next {
+      top: 94.5%;
+      right: 3%;
+   }
+}
 
 footer {
    color: white;
