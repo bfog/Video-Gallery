@@ -4,125 +4,486 @@
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + lighten colour (Art layer) + Final Retouch (final layer)",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal02",
       "title": "Skate City",
       "desc": "@TheBrooklyBridge Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "1092",
-      "uploaded": "Yesterday 10:45 PM"
+      "uploaded": "Yesterday 10:45 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic3",
+            "user": "user2",
+            "comment": "Super cool skateboarding"
+         }, 
+         {
+            "pic": "generic",
+            "user": "chris33",
+            "comment": "nice"
+         }, 
+         {
+            "pic": "generic",
+            "user": "user4",
+            "comment": "Like the black and white"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "I'm here"
+         }
+      ]
    },
    {
       "file": "gal03",
       "title": "Street Art",
       "desc": "@Cruising through the streets of New York.",
       "likes": "435",
-      "uploaded": "Yesterday 8:30 AM"
+      "uploaded": "Yesterday 8:30 AM",
+      "comments": [ 
+         {
+            "pic": "profile_pic5",
+            "user": "linda",
+            "comment": "Wow what street is that"
+         }
+      ]
    },
    {
       "file": "gal04",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "756",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Keep up the photos!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "interesting"
+         }
+      ]
    },
    {
       "file": "gal05",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic5",
+            "user": "jacob",
+            "comment": "Now I'm hungry"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "profile_pic4",
+            "user": "tommy_123",
+            "comment": "can i have a hotdog"
+         },
+         {
+            "pic": "generic",
+            "user": "user",
+            "comment": "hi"
+         },
+         {
+            "pic": "generic",
+            "user": "user6",
+            "comment": "yum"
+         },
+         {
+            "pic": "generic",
+            "user": "user9",
+            "comment": "Like the colour exposure"
+         }
+      ]
    },
    {
       "file": "gal06",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2786",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal07",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "6665",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "generic",
+            "user": "new_user",
+            "comment": "can i have a photo"
+         }
+      ]
    },
    {
       "file": "gal08",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "8677",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal09",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "867 ",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal10",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "87",
-      "uploaded": "Today 10:23 AM"
+      "uploaded": "Today 10:23 AM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal11",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal12",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal13",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal14",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal15",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal16",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal17",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    },
    {
       "file": "gal18",
       "title": "Sidewalk",
       "desc": "@7th Avenue, New York City Edited with Colour of Life (filter app) + remove colour (Base layer) + black and white",
       "likes": "2312",
-      "uploaded": "Today 7:32 PM"
+      "uploaded": "Today 7:32 PM",
+      "comments": [ 
+         {
+            "pic": "profile_pic",
+            "user": "hana23",
+            "comment": "Really like the black and white theme!"
+         }, 
+         {
+            "pic": "generic",
+            "user": "jason_r",
+            "comment": "cool"
+         }, 
+         {
+            "pic": "profile_pic2",
+            "user": "james",
+            "comment": "nice colour scheme"
+         },
+         {
+            "pic": "generic",
+            "user": "tommy_123",
+            "comment": "hi"
+         }
+      ]
    }
 ]

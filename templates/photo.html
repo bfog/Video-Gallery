@@ -46,11 +46,9 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-lg-12">
-            <img src="images/gallery/profile_pic.jpg" class="profile">
-            <p class="user"><span class="user-id">@hana23</span> <span class="cm">Really like the black and white theme!</span></p>            
-            <img src="images/gallery/profile_pic2.jpg" class="profile">
-            <p class="user"><span class="user-id">@jason_r</span> <span class="cm">What street is that?</span></p>
+         <div class="col-lg-12" ng-repeat="c in photoComments">
+            <img src="images/gallery/profile/{{c.pic}}.jpg" class="profile">
+            <p class="user"><span class="user-id">@{{c.user}}</span> <span class="cm">{{c.comment}}</span></p>            
          </div>
       </div>
    </div>

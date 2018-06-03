@@ -34,7 +34,7 @@
    <div class="container" id="img-page">
        <div class="row">
          <div class="col-lg-4 col-sm-12" ng-repeat="i in gallery | offset: currentPage*imagesPerPage | limitTo: imagesPerPage track by $index">
-            <a href="#view/{{i.file}}/{{i.title}}/{{i.desc}}/{{i.likes}}/{{i.uploaded}}"><img src="images/gallery/{{i.file}}.jpg"/></a>  
+            <a href="#view/{{i.file}}/{{i.title}}/{{i.desc}}/{{i.likes}}/{{i.uploaded}}/{{i.comments}}"><img src="images/gallery/{{i.file}}.jpg"/></a>  
          </div>
        </div>
       <div class="pagination">

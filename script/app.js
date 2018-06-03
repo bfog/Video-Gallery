@@ -11,7 +11,7 @@ app.config(function($routeProvider, $locationProvider) {
       templateUrl: "templates/gallery.html",
       controller: "imgCtrl"
    })
-   .when("/view/:file/:title/:desc/:likes/:uploaded", {
+   .when("/view/:file/:title/:desc/:likes/:uploaded/:comments", {
       templateUrl: "templates/photo.html",
       controller: "photoCtrl"
    })
@@ -26,6 +26,7 @@ app.controller("photoCtrl", function($scope, $routeParams) {
    $scope.photoDesc = $routeParams.desc;
    $scope.photoLikes = $routeParams.likes;
    $scope.photoUploaded = $routeParams.uploaded;
+   $scope.photoComments = JSON.parse($routeParams.comments);
 });
 
 app.controller("vidCtrl", function($scope, $http, $sce) {
